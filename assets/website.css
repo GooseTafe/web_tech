@@ -403,7 +403,7 @@ li a:hover {
     height: auto;
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: dimgrey;
+    background-color: black;
     padding: 10px;
     gap: 10px 10px;
     margin-left: 150px;
@@ -411,7 +411,7 @@ li a:hover {
 }
 /*div box settings*/
 .box{
-    background-color: bisque;
+    background-color: white;
     height: auto;
     width: auto;
     border: 1px solid;
@@ -421,7 +421,7 @@ li a:hover {
 .divHeader{
     font-size: larger;
     font-family: Arial, serif;
-    background-color: grey;
+    background-color: white;
 }
 
 .divContent{
@@ -432,7 +432,7 @@ li a:hover {
 
 /*Aside settings*/
 #aside{
-    background-color: bisque;
+    background-color: white;
     height: auto;
     width: auto;
     border: 1px solid;
@@ -462,7 +462,7 @@ li a:hover {
 .divFooter{
     font-size: small;
     font-family: Arial, serif;
-    background-color: grey;
+    background-color: white;
     margin-top: auto;
 }
 
