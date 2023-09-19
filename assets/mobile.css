@@ -402,7 +402,7 @@ li a:hover {
     width: auto;
     height: auto;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     background-color: dimgrey;
     padding: 10px;
     gap: 10px 10px;
@@ -411,7 +411,6 @@ li a:hover {
 }
 /*div box settings*/
 .box{
-    display: none;
     background-color: bisque;
     height: auto;
     width: auto;

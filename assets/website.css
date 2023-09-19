@@ -409,6 +409,14 @@ li a:hover {
     margin-left: 150px;
     margin-right: 150px;
 }
+/*div box settings*/
+.box{
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    border: 1px solid;
+
+}
 
 .divHeader{
     font-size: larger;
@@ -422,12 +430,40 @@ li a:hover {
     min-height: 300px;
 }
 
+/*Aside settings*/
+#aside{
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    border: 1px solid;
+    grid-row: 3/1;
+    grid-column: 3;
+}
+
+
+
+.asideSection{
+    border-bottom: 1px solid;
+}
+
+.secContent{
+    min-height: 100px;
+    min-width: 250px;
+}
+
 /*Footer settings*/
 #footer{
     background-color: white;
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 45px;
+}
+
+.divFooter{
+    font-size: small;
+    font-family: Arial, serif;
+    background-color: grey;
+    margin-top: auto;
 }
 
 .footerLink{
