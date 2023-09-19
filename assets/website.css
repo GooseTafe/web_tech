@@ -421,3 +421,21 @@ li a:hover {
     font-family: Arial, serif;
     min-height: 300px;
 }
+
+/*Footer settings*/
+#footer{
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 45px;
+}
+
+.footerLink{
+    font-size: small;
+    font-family: Arial, serif;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    width: auto;
+    float: left;
+}
