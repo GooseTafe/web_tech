@@ -351,7 +351,7 @@ template {
 /*header settings across top of webpage*/
 #header{
     width:100%;
-    background: brown;
+    background: white;
 }
 /*header content settings*/
 #headerContent{
@@ -361,3 +361,39 @@ template {
     font-family: Arial, serif;
     font-size: large;
 }
+/*navigation bar background*/
+#nav{
+    width:100%;
+    background-color: white;
+}
+/*navigation content button settings*/
+#navContent{
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, serif;
+    font-size: large;
+}
+/*navigation link settings*/
+#navPages{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*un-ordered list settings*/
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
