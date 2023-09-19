@@ -361,6 +361,41 @@ template {
     font-family: Arial, serif;
     font-size: large;
 }
+/*navigation bar background*/
+#nav{
+    width:100%;
+    background-color: green;
+}
+/*navigation content button settings*/
+#navContent{
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, serif;
+    font-size: large;
+}
+/*navigation link settings*/
+#navPages{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*un-ordered list settings*/
+li {
+    float: left;
+}
+
+li a {
+    display: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
 
 /*creates a 3 column 2 row grid to place div and aside inside of*/
 .grid-container{
@@ -374,6 +409,15 @@ template {
     margin-left: 150px;
     margin-right: 150px;
 }
+/*div box settings*/
+.box{
+    display: none;
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    border: 1px solid;
+
+}
 
 .divHeader{
     font-size: larger;
@@ -385,6 +429,28 @@ template {
     font-size: small;
     font-family: Arial, serif;
     min-height: 300px;
+}
+
+/*Aside settings*/
+#aside{
+    display: none;
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    border: 1px solid;
+    grid-row: 3/1;
+    grid-column: 3;
+}
+
+
+
+.asideSection{
+    border-bottom: 1px solid;
+}
+
+.secContent{
+    min-height: 100px;
+    min-width: 250px;
 }
 
 /*Footer settings*/
