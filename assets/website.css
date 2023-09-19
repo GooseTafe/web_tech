@@ -397,3 +397,27 @@ li a:hover {
     background-color: grey;
 }
 
+/*creates a 3 column 2 row grid to place div and aside inside of*/
+.grid-container{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: dimgrey;
+    padding: 10px;
+    gap: 10px 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.divHeader{
+    font-size: larger;
+    font-family: Arial, serif;
+    background-color: grey;
+}
+
+.divContent{
+    font-size: small;
+    font-family: Arial, serif;
+    min-height: 300px;
+}
