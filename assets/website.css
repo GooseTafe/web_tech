@@ -397,6 +397,14 @@ li a:hover {
     background-color: #5941A9;
 }
 
+/*setting all image sizes*/
+img {
+    object-fit: fill ;
+    width: 350px;
+}
+
+
+
 /*creates a 3 column 2 row grid to place div and aside inside of*/
 .grid-container{
     width: auto;
@@ -406,8 +414,8 @@ li a:hover {
     background-color: black;
     padding: 10px;
     gap: 10px 10px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 /*div box settings*/
 .box{
@@ -415,7 +423,6 @@ li a:hover {
     height: auto;
     width: auto;
     border: 1px solid;
-
 }
 
 .divHeader{
