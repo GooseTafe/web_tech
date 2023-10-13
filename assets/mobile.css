@@ -351,7 +351,7 @@ template {
 /*header settings across top of webpage*/
 #header{
     width:100%;
-    background: brown;
+    background: white;
 }
 /*header content settings*/
 #headerContent{
@@ -364,7 +364,7 @@ template {
 /*navigation bar background*/
 #nav{
     width:100%;
-    background-color: green;
+    background-color: white;
 }
 /*navigation content button settings*/
 #navContent{
@@ -403,13 +403,13 @@ li a:hover {
     height: auto;
     display: grid;
     grid-template-columns: auto;
-    background-color: dimgrey;
+    background-color: black;
     padding: 10px;
     gap: 10px 10px;
 }
 /*div box settings*/
 .box{
-    background-color: bisque;
+    background-color: white;
     height: auto;
     width: auto;
     border: 1px solid;
@@ -419,7 +419,7 @@ li a:hover {
 .divHeader{
     font-size: larger;
     font-family: Arial, serif;
-    background-color: grey;
+    background-color: white;
 }
 
 .divContent{
@@ -431,7 +431,7 @@ li a:hover {
 /*Aside settings*/
 #aside{
     display: none;
-    background-color: bisque;
+    background-color: white;
     height: auto;
     width: auto;
     border: 1px solid;
@@ -452,7 +452,7 @@ li a:hover {
 
 /*Footer settings*/
 #footer{
-    background-color: grey;
+    background-color: white;
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 45px;
@@ -461,14 +461,14 @@ li a:hover {
 .divFooter{
     font-size: small;
     font-family: Arial, serif;
-    background-color: grey;
+    background-color: white;
     margin-top: auto;
 }
 
 .footerLink{
     font-size: small;
     font-family: Arial, serif;
-    background-color: grey;
+    background-color: white;
     text-decoration: none;
     display: block;
     width: auto;
