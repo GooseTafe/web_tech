@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../phase-4/assets/website.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="GetDadJokes.js"></script>
     <title>ALEXANDER GLOVER | Web Tech | Cert 4 Prog</title>
 </head>
 <body>
@@ -79,9 +81,9 @@
     <aside class="aside" id="aside">
         <section class="asideSection">
             <header class="divHeader">Dad Joke Generator</header>
-                <form id="getDadJoke">
-                    <label for="numberOfJokes">Number of Jokes:</label>
-                    <label for="numberOfJokes"></label><input type="text" id="numberOfJokes" required>
+                <form id="dad-joke-form">
+                    <label for="limit">Number of Jokes:</label>
+                    <label for="limit"></label><input type="text" id="limit" min="1" max="10" required>
                     <p id="dadJoke"></p>
                     <input type="submit" value="Press Me!">
                 </form>
