@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('#dad-joke-form').submit(function(e) {
         e.preventDefault();
-        // uses the user input for the limit letiable
-        let limit = $('#limit').val();
+        // uses the user input for the limit variable
+        var limit = $('#limit').val();
         getDadJokes(limit);
         });
 
@@ -24,9 +24,9 @@ $(document).ready(function() {
 
     // depending on the limit loops through the jokes and appends the output to the <p> tag of id dadJoke
     function displayJokes(jokes) {
-        let jokeContainer = $('#dadJoke');
+        var jokeContainer = $('#dadJoke');
         jokeContainer.empty();
-        for (let i = 0; i < jokes.length; i++) {
+        for (var i = 0; i < jokes.length; i++) {
             jokeContainer.append('<p>' + jokes[i].joke + '</p>');
         }
     }
