@@ -21,6 +21,9 @@ html {
  */
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
 }
 
@@ -406,16 +409,12 @@ img {
 
 
 /*creates a 3 column 2 row grid to place div and aside inside of*/
-.grid-container{
-    width: auto;
-    height: auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: black;
-    padding: 10px;
-    gap: 10px 10px;
-    margin-left: 180px;
-    margin-right: 180px;
+.grid-container {
+    flex: 1;
+    min-height: 80vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /*div box settings*/
 .box{
@@ -522,11 +521,12 @@ img {
 
 
 /*Footer settings*/
-#footer{
+#footer {
     background-color: #B18FCF;
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 45px;
+    margin-top: auto;
 }
 
 .divFooter{
