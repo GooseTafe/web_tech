@@ -351,7 +351,11 @@ template {
 /*header settings across top of webpage*/
 #header{
     width:100%;
+<<<<<<< HEAD
     background: white;
+=======
+    background: #5941A9;
+>>>>>>> origin/phase_3
 }
 /*header content settings*/
 #headerContent{
@@ -364,7 +368,11 @@ template {
 /*navigation bar background*/
 #nav{
     width:100%;
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #B18FCF;
+>>>>>>> origin/phase_3
 }
 /*navigation content button settings*/
 #navContent{
@@ -387,16 +395,34 @@ li {
 
 li a {
     display: block;
+<<<<<<< HEAD
     color: black;
+=======
+    color: #080708;
+>>>>>>> origin/phase_3
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
+<<<<<<< HEAD
     background-color: grey;
 }
 
+=======
+    background-color: #5941A9;
+}
+
+/*setting all image sizes*/
+img {
+    object-fit: fill ;
+    width: 350px;
+}
+
+
+
+>>>>>>> origin/phase_3
 /*creates a 3 column 2 row grid to place div and aside inside of*/
 .grid-container{
     width: auto;
@@ -406,6 +432,7 @@ li a:hover {
     background-color: black;
     padding: 10px;
     gap: 10px 10px;
+<<<<<<< HEAD
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -416,12 +443,27 @@ li a:hover {
     width: auto;
     border: 1px solid;
 
+=======
+    margin-left: 180px;
+    margin-right: 180px;
+}
+/*div box settings*/
+.box{
+    background-color: #EED7C5;
+    height: auto;
+    width: auto;
+    border: 1px solid;
+>>>>>>> origin/phase_3
 }
 
 .divHeader{
     font-size: larger;
     font-family: Arial, serif;
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #668F80;
+>>>>>>> origin/phase_3
 }
 
 .divContent{
@@ -432,7 +474,11 @@ li a:hover {
 
 /*Aside settings*/
 #aside{
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #EED7C5;
+>>>>>>> origin/phase_3
     height: auto;
     width: auto;
     border: 1px solid;
@@ -451,9 +497,78 @@ li a:hover {
     min-width: 250px;
 }
 
+<<<<<<< HEAD
 /*Footer settings*/
 #footer{
     background-color: white;
+=======
+
+@media (max-width: 768px) {
+    /* Header */
+    #headerContent {
+        text-align: center;
+    }
+    #navContent {
+        text-align: center;
+    }
+    #navPages {
+        display: none;
+    }
+
+    /* Grid and Aside */
+    .grid-container {
+        display: block;
+    }
+    .box {
+        width: 100%;
+    }
+    #aside {
+        display: none;
+    }
+    .divContent {
+        min-height: 200px;
+    }
+    img {
+        width: 100%; /* Adjust image width for mobile */
+    }
+}
+
+/* Desktop Styles (Min-width: 769px) */
+@media (min-width: 769px) {
+    /* Header */
+    #headerContent {
+        text-align: left;
+    }
+    #navContent {
+        text-align: left;
+    }
+    #navPages {
+        display: block;
+    }
+
+    /* Grid and Aside */
+    .grid-container {
+        display: grid;
+    }
+    .box {
+        width: auto;
+    }
+    #aside {
+        display: block;
+    }
+    .divContent {
+        min-height: 300px;
+    }
+    img {
+        width: 350px; /* Adjust image width for desktop */
+    }
+}
+
+
+/*Footer settings*/
+#footer{
+    background-color: #B18FCF;
+>>>>>>> origin/phase_3
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 45px;
@@ -462,14 +577,22 @@ li a:hover {
 .divFooter{
     font-size: small;
     font-family: Arial, serif;
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #668F80;
+>>>>>>> origin/phase_3
     margin-top: auto;
 }
 
 .footerLink{
     font-size: small;
     font-family: Arial, serif;
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #B18FCF;
+>>>>>>> origin/phase_3
     text-decoration: none;
     display: block;
     width: auto;
